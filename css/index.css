@@ -5,22 +5,59 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-	box-sizing: border-box;
-
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
-a{
-	font-size: 10em;
-}
+  .graphic{
+    position: relative;
+    overflow: hidden;
+  }
 
-uo li{
-	list-style: none;
+  .graphic figcaption{
+    width: 100%;
+    position: absolute;
+    bottom: -5em;
+    background-color: #333333;
+    color: #FFFFFF;
+    height: auto;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5em;
+      transition: all 250ms linear;
+  }
+
+  .graphic img{
+    top:0;
+    display: block;
+    position: relative;
+    transition: all 250ms linear;
+  }
+
+  .graphic:hover img{
+    top: -1em;
+  }
+
+  .graphic:hover figcaption{
+    bottom: 0;
+  }
+
+  @media only screen and (max-width : 38em) {
+  .graphic figcaption{
+    display: none;
+  }
+  .graphic:hover img{
+    top: 0;
+  }
 }
