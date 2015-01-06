@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'fontello';
-  src: url('../font/fontello.eot?81615128');
-  src: url('../font/fontello.eot?81615128#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff?81615128') format('woff'),
-       url('../font/fontello.ttf?81615128') format('truetype'),
-       url('../font/fontello.svg?81615128#fontello') format('svg');
+  font-family: 'exercise-1-font';
+  src: url('../font/exercise-1-font.eot?81615128');
+  src: url('../font/exercise-1-font.eot?81615128#iefix') format('embedded-opentype'),
+       url('../font/exercise-1-font.woff?81615128') format('woff'),
+       url('../font/exercise-1-font.ttf?81615128') format('truetype'),
+       url('../font/exercise-1-font.svg?81615128#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,14 +13,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?81615128#fontello') format('svg');
+    font-family: 'exercise-1-font';
+    src: url('../font/exercise-1-font.svg?81615128#fontello') format('svg');
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: "exercise-1-font";
   font-style: normal;
   font-weight: normal;
   speak: none;
