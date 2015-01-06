@@ -16,3 +16,11 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+a{
+	font-size: 10em;
+}
+
+uo li{
+	list-style: none;
+}
