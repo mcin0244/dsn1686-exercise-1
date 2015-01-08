@@ -65,6 +65,7 @@ h1{
     text-align: center;
     opacity: 0;
     padding: 1em;
+    font-size: .9em;
     line-height: 1.5em;
     font-weight: 300;
     color: #384001;
@@ -76,8 +77,9 @@ h1{
 
   .icons figcaption h6{
     text-align: center;
+    font-size: 1.2em;
     margin-bottom: -.3em;
-    font-weight: 400;
+    font-weight: 700;
     color: #384001;
   }
 
