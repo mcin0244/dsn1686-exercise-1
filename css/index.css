@@ -12,52 +12,78 @@ html {
   text-size-adjust: 100%;
   margin: 0;
   padding: 0;
+  background-color: #FFF9F3;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
-  .graphic{
-    position: relative;
-    overflow: hidden;
-  }
-
-  .graphic figcaption{
-    width: 100%;
-    position: absolute;
-    bottom: -5em;
-    background-color: #333333;
-    color: #FFFFFF;
-    height: auto;
-    font-weight: 300;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 1.5em;
-      transition: all 250ms linear;
-  }
-
-  .graphic img{
-    top:0;
-    display: block;
-    position: relative;
-    transition: all 250ms linear;
-  }
-
-  .graphic:hover img{
-    top: -1em;
-  }
-
-  .graphic:hover figcaption{
-    bottom: 0;
-  }
-
-  @media only screen and (max-width : 38em) {
-  .graphic figcaption{
-    display: none;
-  }
-  .graphic:hover img{
-    top: 0;
-  }
+h1{
+  text-align: center;
+  font-size: 2em;
+  color: #BCBF60;
+  font-weight: 700;
+  padding: 1.5em;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 3.125em;
 }
+  /* SERVICES */
+.services{
+  width: 100%;
+  display: block;
+}
+
+  /* ICONS */
+  .icons{
+    position: relative;
+    padding-bottom: .5em;
+    opacity: .8;
+    color: #384001;
+  }
+  .icons:hover{
+    opacity: 1;
+    color: #BCBF60;
+  }
+
+  .icons-border{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #384001;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .icons figcaption{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    padding: 1em;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #384001;
+  }
+
+  .icons:hover figcaption{
+    opacity: 1;
+  }
+
+  .icons figcaption h6{
+    text-align: center;
+    margin-bottom: -.3em;
+    font-weight: 400;
+    color: #384001;
+  }
+
+
+  .services-icons{
+    text-align: center;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
